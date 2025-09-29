@@ -17,8 +17,6 @@ body {
     height: 200px;
     display: block;
     position: relative;
-    top: 10px;
-    left: 20px;
     text-align: center;
 }
 
@@ -42,4 +40,12 @@ article {
     flex: 1;
     border: #000000 1px solid;
     padding: 10px;
+    text-align: justify;
+}
+
+article footer {
+    text-align: center;
+    color: #808080;
+    font-size: 0.85em;
+    
 }

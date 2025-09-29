@@ -74,3 +74,11 @@ article table, th, td {
     text-align: center;
     padding-top: 150px;
 }
+
+.translate {
+    transition: translate 1s;
+  }
+  
+  div:hover .translate {
+    translate: 200px 50px;
+  }

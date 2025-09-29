@@ -13,8 +13,6 @@ body {
     margin: 20px;
     padding: 15px;
     border: 2px solid #000000;
-    width: 300px;
-    height: 200px;
     display: block;
     position: relative;
     text-align: center;
@@ -43,9 +41,36 @@ article {
     text-align: justify;
 }
 
+#artigo1 {
+    line-height: 500%;
+}
+
+#scroll {
+    height: 40px;
+    overflow-y: scroll
+}
+
+#artigo5 > p{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
 article footer {
     text-align: center;
     color: #808080;
     font-size: 0.85em;
+    place-self: flex-end normal;
     
+}
+
+article table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+article table, th, td {
+    border: 1px solid #000000;
+    text-align: center;
+    padding-top: 150px;
 }
